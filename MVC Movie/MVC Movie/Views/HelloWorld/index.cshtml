@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>Hello from our Index View Template!</p>
+
+<ul>
+    @for (int i = 0; i < ViewBag.NumTimes; i++)
+    {
+        <li>@ViewBag.Message</li>
+    }
+</ul>
